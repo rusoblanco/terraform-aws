@@ -6,9 +6,9 @@ repos:
   - id: terraform_validate
   - id: terraform_docs
   - id: terraform_docs_without_aggregate_type_defaults
-  - id: terraform_tflint  
+  - id: terraform_tflint
     args:
-    - 'args=--enable-rule=terraform_documented_variables'  
+    - 'args=--enable-rule=terraform_documented_variables'
   - id: terraform_tfsec
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v2.4.0
