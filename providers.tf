@@ -21,6 +21,11 @@ terraform {
       version = "3.1.0"
     }
   }
+  #backend "s3" {
+  #  bucket = "ctt-terraform"
+  #  key    = /terraform.tfstate"
+  #  region = "us-west-2"
+  #} 
 }
 
 provider "aws" {
