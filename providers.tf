@@ -27,9 +27,3 @@ terraform {
   #  region = "us-west-2"
   #} 
 }
-
-provider "aws" {
-  profile = "default"
-  alias   = "west"
-  region  = "us-west-2"
-}
